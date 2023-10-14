@@ -16,7 +16,7 @@ const routes = [
     path: "/contacts",
     name: "contact.add",
     component: () => import("@/views/ContactAdd.vue"),
-    props: true // Truyền các biến trong $route.params vào làm props
+    props: true // Truyền các biến trong $route.params vào làm props//
   },
   {
     path: "/:pathMatch(.*)*",

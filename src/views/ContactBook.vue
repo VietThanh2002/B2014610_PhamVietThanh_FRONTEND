@@ -52,6 +52,7 @@ export default {
         InputSearch,
         ContactList,
     },
+    
     data() {
         return {
             contacts: [],
@@ -126,3 +127,4 @@ export default {
     max-width: 750px;
 }
 </style>
+
